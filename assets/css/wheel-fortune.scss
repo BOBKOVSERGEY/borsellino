@@ -1,0 +1,851 @@
+.wheel-fortune {
+
+  &__bg {
+    padding-top: 70px;
+    background: url(../img/bg-wheel-fortune/bg-wheel-fortune.jpg) no-repeat 50%;
+    background-size: cover;
+    height: 555px;
+    overflow: hidden;
+  }
+  &__heading {
+    font-family: Lato-Bold;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+  &__description {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+  }
+  &__wrapper-wheel {
+    width: 560px;
+    height: 560px;
+    margin: 50px auto 0 auto;
+  }
+  &__wheel {
+    width: 100%;
+    height: 100%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+  &__wheel-sec {
+
+  }
+
+
+  &__products-rally {
+    margin: 50px 0;
+    padding: 50px 0;
+    border-top: 1px solid #b7b5b6;
+    border-bottom: 1px solid #b7b5b6;
+    & h2 {
+      font-family: PT-serif-regular;
+      font-weight: normal;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 70px;
+    }
+  }
+  &__icon-rub {
+    font-size: 14px!important;
+  }
+  &__text-rally {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    margin: 50px 0;
+
+    & p {
+      line-height: 1;
+
+      & a {
+        border-bottom: 1px solid #000;
+        &:hover {
+          border-bottom: 1px solid rgba(237, 28, 36, 0.68);
+        }
+      }
+    }
+
+  }
+  &__share {
+    text-align: center;
+    & span {
+      font-family: Lato-Regular;
+      text-transform: uppercase;
+      margin-right: 20px;
+    }
+    & a {
+      font-size: 27px;
+      margin: 0 7px;
+      color: #b2b2b2;
+    }
+  }
+  &__table {
+    margin-bottom: 50px;
+    & h2 {
+      font-family: PT-serif-regular;
+      font-weight: normal;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  &__table-head {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #7f7f7f;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e8e8;
+    padding: 15px;
+  }
+  &__table-number {
+    width: 10%;
+  }
+  &__table-prize {
+    width: 50%;
+  }
+  &__table-quantity {
+    text-align: right;
+    width: 20%;
+  }
+  &__table-rose {
+    text-align: right;
+    width: 20%;
+  }
+  &__table-bg-number {
+    font-size: 14px;
+    font-family: Lato-Bold;
+    width: 25px;
+    height: 25px;
+    background: url(../img/bg-wheel-fortune/priztable.svg) no-repeat 50%;
+    text-align: center;
+    padding-top: 9px;
+    color: #fff;
+
+    &_bow {
+      background: url(../img/bg-wheel-fortune/priztablebow.svg) no-repeat 50%;
+    }
+    &_star {
+      padding-top: 7px;
+      background: url(../img/bg-wheel-fortune/priztablestar.svg) no-repeat 50%;
+    }
+  }
+  &__table-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e8e8;
+    padding: 15px;
+    align-items: center;
+    & .wheel-fortune__table-prize {
+      font-family: Lato-Regular;
+      font-size: 14px;
+      color: #000;
+      & a {
+        border-bottom: 1px solid #000;
+        &:hover {
+          border-bottom: 1px solid rgba(237, 28, 36, 0.68);
+        }
+      }
+    }
+    & .wheel-fortune__table-quantity {
+      font-family: Lato-Regular;
+      font-size: 14px;
+      color: #000;
+    }
+    & .wheel-fortune__table-rose {
+      font-family: Lato-Regular;
+      font-size: 14px;
+      color: #000;
+    }
+  }
+
+}
+
+.wheel-fortune__spin-text {
+  font-family: Lato-Bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.wheel-fortune__wheel-number {
+  font-family: Lato-Bold;
+  font-size: 17px;
+  color: #0b3a5e;
+  position: absolute;
+  top: 47px;
+  text-align: center;
+}
+.wheel-fortune__wheel-number_star {
+  top: 44px;
+  text-align: center;
+}
+.xFortun_con * {
+  position: relative;
+}
+
+.xFortun_con .selectize-dropdown.single.select.theme-default {
+  position: absolute;
+}
+
+.fr {
+  float: right;
+  display: block;
+}
+
+.fl {
+  float: left;
+  display: block;
+}
+
+.clear:before, .clear:after {
+  clear: both;
+  display: block;
+}
+*:before, *:after {
+  content: '';
+}
+
+
+.arcticmodal-container_i {
+  border-collapse: collapse;
+  width: 100%;
+}
+.xFortun_infoTxt1 {
+  color: #ffffff;
+  font-family: "PT Sans Narrow",sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.xFortun_infoTxt1 > span {
+  font-size: 43px;
+}
+.xFortun_timer {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.xFortun_timerName {
+  color: #ffffff;
+  font-family: "PT Sans",sans-serif;
+  font-size: 24px;
+  line-height: 1;
+}
+.timer_con {
+  margin-top: 8px;
+  width: 170px;
+}
+.timer_con .digit + .digit {
+  margin-left: 6px;
+}
+.timer_con .digit .num + .num {
+  margin-left: 2px;
+}
+.timer_con .digit .num {
+  background-color: #127af1;
+  border-radius: 2px;
+  box-shadow: 0 -20px 0 #0362cd inset;
+  color: #ffffff;
+  font-family: PT Sans Narrow;
+  font-size: 31px;
+  font-weight: 700;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  width: 25px;
+}
+.timer_con .digit .num:before {
+  background-color: #0c3c83;
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 21px;
+}
+
+
+.xFortun_wheelAreaCon {
+  padding: 118px 40px 22px;
+}
+.xFortun_wheelAreaArr {
+  background-image: url("../img/fortuna/strelka.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 52px;
+  left: 50%;
+  margin-left: -315px;
+  position: absolute;
+  top: 268px;
+  width: 52px;
+  filter: drop-shadow(2px 2px 3px #000);
+}
+
+.xFortun_wheelCon {
+
+  left: 50%;
+  margin-left: -290px;
+  position: absolute;
+  top: 0px;
+
+}
+.xFortun_wheelDiv {
+  height: 580px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 580px;
+}
+.xFortun_wheelBG1 {
+  background-image: url("../img/fortuna/koleso.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 580px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 580px;
+}
+.xFortun_wheelLineCon {
+  height: 580px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 580px;
+}
+
+.xFortun_wheelLine {
+  height: 102px;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: -51px;
+  position: absolute;
+  top: 50%;
+  width: 700px;
+}
+.xFortun_wheelLine:nth-child(2) {-moz-transform:scale(1) rotate(20deg);-webkit-transform:scale(1) rotate(20deg);-o-transform:scale(1) rotate(20deg);-ms-transform:scale(1) rotate(20deg);transform:scale(1) rotate(20deg);}
+.xFortun_wheelLine:nth-child(3) {-moz-transform:scale(1) rotate(40deg);-webkit-transform:scale(1) rotate(40deg);-o-transform:scale(1) rotate(40deg);-ms-transform:scale(1) rotate(40deg);transform:scale(1) rotate(40deg);}
+.xFortun_wheelLine:nth-child(4) {-moz-transform:scale(1) rotate(60deg);-webkit-transform:scale(1) rotate(60deg);-o-transform:scale(1) rotate(60deg);-ms-transform:scale(1) rotate(60deg);transform:scale(1) rotate(60deg);}
+.xFortun_wheelLine:nth-child(5) {-moz-transform:scale(1) rotate(80deg);-webkit-transform:scale(1) rotate(80deg);-o-transform:scale(1) rotate(80deg);-ms-transform:scale(1) rotate(80deg);transform:scale(1) rotate(80deg);}
+.xFortun_wheelLine:nth-child(6) {-moz-transform:scale(1) rotate(100deg);-webkit-transform:scale(1) rotate(100deg);-o-transform:scale(1) rotate(100deg);-ms-transform:scale(1) rotate(100deg);transform:scale(1) rotate(100deg);}
+.xFortun_wheelLine:nth-child(7) {-moz-transform:scale(1) rotate(120deg);-webkit-transform:scale(1) rotate(120deg);-o-transform:scale(1) rotate(120deg);-ms-transform:scale(1) rotate(120deg);transform:scale(1) rotate(120deg);}
+.xFortun_wheelLine:nth-child(8) {-moz-transform:scale(1) rotate(140deg);-webkit-transform:scale(1) rotate(140deg);-o-transform:scale(1) rotate(140deg);-ms-transform:scale(1) rotate(140deg);transform:scale(1) rotate(140deg);}
+.xFortun_wheelLine:nth-child(9) {-moz-transform:scale(1) rotate(160deg);-webkit-transform:scale(1) rotate(160deg);-o-transform:scale(1) rotate(160deg);-ms-transform:scale(1) rotate(160deg);transform:scale(1) rotate(160deg);}
+.xFortun_wheelLine:nth-child(10) {-moz-transform:scale(1) rotate(180deg);-webkit-transform:scale(1) rotate(180deg);-o-transform:scale(1) rotate(180deg);-ms-transform:scale(1) rotate(180deg);transform:scale(1) rotate(180deg);}
+.xFortun_wheelLine:nth-child(11) {-moz-transform:scale(1) rotate(200deg);-webkit-transform:scale(1) rotate(200deg);-o-transform:scale(1) rotate(200deg);-ms-transform:scale(1) rotate(200deg);transform:scale(1) rotate(200deg);}
+.xFortun_wheelLine:nth-child(12) {-moz-transform:scale(1) rotate(220deg);-webkit-transform:scale(1) rotate(220deg);-o-transform:scale(1) rotate(220deg);-ms-transform:scale(1) rotate(220deg);transform:scale(1) rotate(220deg);}
+.xFortun_wheelLine:nth-child(13) {-moz-transform:scale(1) rotate(240deg);-webkit-transform:scale(1) rotate(240deg);-o-transform:scale(1) rotate(240deg);-ms-transform:scale(1) rotate(240deg);transform:scale(1) rotate(240deg);}
+.xFortun_wheelLine:nth-child(14) {-moz-transform:scale(1) rotate(260deg);-webkit-transform:scale(1) rotate(260deg);-o-transform:scale(1) rotate(260deg);-ms-transform:scale(1) rotate(260deg);transform:scale(1) rotate(260deg);}
+.xFortun_wheelLine:nth-child(15) {-moz-transform:scale(1) rotate(280deg);-webkit-transform:scale(1) rotate(280deg);-o-transform:scale(1) rotate(280deg);-ms-transform:scale(1) rotate(280deg);transform:scale(1) rotate(280deg);}
+.xFortun_wheelLine:nth-child(16) {-moz-transform:scale(1) rotate(300deg);-webkit-transform:scale(1) rotate(300deg);-o-transform:scale(1) rotate(300deg);-ms-transform:scale(1) rotate(300deg);transform:scale(1) rotate(300deg);}
+.xFortun_wheelLine:nth-child(17) {-moz-transform:scale(1) rotate(320deg);-webkit-transform:scale(1) rotate(320deg);-o-transform:scale(1) rotate(320deg);-ms-transform:scale(1) rotate(320deg);transform:scale(1) rotate(320deg);}
+.xFortun_wheelLine:nth-child(18) {-moz-transform:scale(1) rotate(340deg);-webkit-transform:scale(1) rotate(340deg);-o-transform:scale(1) rotate(340deg);-ms-transform:scale(1) rotate(340deg);transform:scale(1) rotate(340deg);}
+.xFortun_wheelLine .name {
+  color: #ffffff;
+  font-family: Lato-Bold;
+  font-size: 24px;
+  height: 102px;
+  left: 136px;
+  line-height: 102px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 1px;
+  white-space: nowrap;
+}
+.xFortun_wheelLine .name.t1 {
+  color: #fff200;
+}
+.xFortun_wheelLine .name.t2 {
+  font-size: 20px;
+}
+.xFortun_wheelLine .img {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 102px;
+  left: 64px;
+  position: absolute;
+  top: -5px;
+  width: 55px;
+}
+.xFortun_wheelLine .img.i1 {background-image: url("../img/fortuna/prizwheel-bg-1.svg")}
+.xFortun_wheelLine .img.i2 {background-image: url("../img/fortuna/priztwheel-bg-star.svg");}
+.xFortun_wheelLine .img.i3 {background-image: url("../img/fortuna/prizwheel-bg-bow.svg");}
+.xFortun_wheelLine .img.i4 {background-image: url("../img/fortuna/i4.png");}
+.xFortun_wheelLine .sector {
+  background-image: url("../img/fortuna/sector.png");
+  height: 102px;
+  left: 65px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 295px;
+}
+.xFortun_wheelLine.onS .sector {opacity: 1;}
+
+.xFortun_bg2 {
+  top: 240px
+}
+
+.xFortun_spinBut {
+  width: 110px;
+  height: 110px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: bold;
+}
+.xFortun_spinBut img{
+  width: 32px;
+  margin-top: 19px;
+}
+.xFortun_spinBut:active {
+
+}
+.xFortun_spinBut.disabled {
+  cursor:default;
+  background: #a2a2a2;
+}
+
+.xFortun_infoTxt2 {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 21px;
+  padding: 15px 15px 25px;
+  text-align: center;
+}
+.xFortun_infoBlock {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0 32px 0 22px;
+}
+.xFortun_infoBlock .name1,
+.xFortun_infoBlock .name2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.xFortun_infoBlock .name2{margin-top:35px;}
+.xFortun_infoBlock .p {
+  line-height: 26px;
+  margin-top: 12px;
+}
+.xFortun_infoBlock .p .c {
+  font-size: 24px;
+  font-weight: 700;
+}
+.xFortun_infoBlock .p .link {
+  color: #ffba00;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.xFortun_infoBlock .p .c .input {
+  background-color: #0050a9;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 24px;
+  height: 33px;
+  line-height: 33px;
+  padding: 0;
+  text-align: center;
+  width: 58px;
+}
+.xFortun_infoBlock .p .butG {
+  background-color: #7baf20;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 22px;
+  height: 43px;
+  line-height: 43px;
+  padding: 0 42px;
+  vertical-align: top;
+}
+.xFortun_infoBlock .p.ac {
+  margin-top: 18px;
+  text-align: center;
+}
+.xFortun_infoBlock .p .t {
+  font-size: 14px;
+}
+
+.xFortun_infoBlock .ui-selectmenu-button {
+  background-color: transparent !important;
+  border: medium none !important;
+  color: #ffffff !important;
+  font-family: PT Sans !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  height: 33px !important;
+  line-height: 33px;
+  padding: 0 40px 0 10px !important;
+}
+.xFortun_infoBlock .ui-selectmenu-button.ui-corner-top {
+  background-color: #ffffff !important;
+  color: #8292a3 !important;
+}
+.xFortun_infoBlock .ui-selectmenu-button span.ui-selectmenu-text {
+  line-height: 33px;
+  padding: 0;
+}
+.xFortun_infoBlock .ui-selectmenu-button.ui-corner-top span.ui-icon {
+  color: #8292a3;
+}
+.xFortun_infoBlock .ui-selectmenu-button span.ui-icon {
+  color: #ffffff;
+  height: 33px;
+  line-height: 33px;
+  margin: 0;
+  right: 0;
+  top: 0;
+  width: 35px;
+}
+
+.xFortun_workCon {
+  background-color: #ffffff;
+}
+.xFortun_workCon .hideCon {
+  box-shadow: 0 1px #0b3a7c inset;
+  color: #333333;
+  display: none;
+  font-size: 16px;
+  line-height: 1.3;
+  overflow: hidden;
+  padding: 20px;
+}
+.xFortun_workCon .nameArr {
+  color: #0362cd;
+  font-size: 30px;
+  height: 82px;
+  line-height: 82px;
+  overflow: hidden;
+  padding: 0 62px 0 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.xFortun_workCon .nameArr:active {
+  background-color: #eeeeee;
+}
+.xFortun_workCon .nameArr:before {
+  display: block;
+  font-size: 33px;
+  height: 82px;
+  line-height: 86px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  top: 0;
+  width: 30px;
+}
+.xFortun_workCon .nameArr.active:before {
+  content: '\e8a3';
+}
+
+.xFortun_bg3 {
+  background-color: #014066;
+  background-image: url("../img/fortuna/bg2.jpg");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #ffffff;
+  padding: 22px 0;
+}
+.xFortun_sliderConName {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.xFortun_sliderConName > span {
+  font-size: 30px;
+}
+
+.xFortun_slider {
+  font-size: 0;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+.xFortun_slider .item {
+  display: inline-block;
+  vertical-align: top;
+  position:relative;
+}
+.xFortun_slider .item .img {
+  height: 285px;
+  line-height: 275px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+}
+.xFortun_slider .item .img > img {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.xFortun_slider .item .name1 {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.xFortun_slider .item .name2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 5px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.xFortun_slider .item .count {
+  bottom: 54px;
+  position: absolute;
+  right: 48px;
+}
+.xFortun_slider .item .count .n {
+  background-color: #127af1;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 60px;
+  letter-spacing:-1px;
+}
+.xFortun_slider .item .count .t {
+  bottom: 0;
+  color: #ffffff;
+  font-size: 14px;
+  left: 65px;
+  line-height: 1.2;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.xFortun_sliderPrev, .xFortun_sliderNext {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-size: 58px;
+  height: 65px;
+  position: absolute;
+  top: 128px;
+  width: 45px;
+  z-index: 1;
+}
+
+.arcticmodal-container_i2 {
+  top: 0;
+}
+
+.notWheel {
+  cursor: pointer !important;
+}
+
+#fortunaModal .txt1 {
+  color: #ffffff;
+  font-family: Roboto Condensed;
+  font-size: 42px;
+  font-weight: 700;
+  left: 10px;
+  line-height: 1;
+  position: absolute;
+  right: 10px;
+  text-shadow: 0 7px 1px #122b43, 0 5px 1px #122b43, 1px 6px 1px #122b43, -1px 6px 1px #122b43, 2px 5px 1px #122b43, -2px 5px 1px #122b43;
+  top: 18px;
+}
+#fortunaModal .txt2 {
+  color: #323232;
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+#fortunaModal .buts {
+  font-size: 0;
+  margin-top: 18px;
+  z-index: 1000;
+}
+#fortunaModal .buts .but {
+  border-radius: 1px;
+  box-shadow: 0 0 0 5px #eeeef0;
+  color: #ffffff;
+  display: inline-block;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  height: 37px;
+  line-height: 37px;
+  margin: 7px 8px;
+  min-width: 130px;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+#fortunaModal .buts .but.login{background-color: #1275d1;}
+#fortunaModal .buts .but.login:hover{background-color: #1f8cf1;}
+#fortunaModal .buts .but.reg{background-color: #77a02e;}
+#fortunaModal .buts .but.reg:hover{background-color: #8ab935;}
+
+.box-modal .full_text {
+  text-align: center;
+}
+
+.arcticmodal-container_i {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 0;
+}
+
+.box-modal .title {
+  padding: 5px 0;
+}
+
+
+
+.fortunaBonus_con {
+  border-radius: 0 0 3px 3px;
+  border-top: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: PT Sans,sans-serif;
+  min-height: 185px;
+  overflow: hidden;
+  padding: 35px 20px 28px;
+  position: relative;
+  text-align: center;
+}
+.fortunaBonus_con:before {
+  background-color: #054aad;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  bottom: -50px;
+  box-shadow: 0 0 150px 130px #054aad;
+  content: "";
+  display: block;
+  height: 50px;
+  position: absolute;
+  right: 92px;
+  width: 150px;
+}
+.fortunaBonus_con > div{position:relative;}
+.fortunaBonus_con .txt1 {
+  color: #ffde00;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.fortunaBonus_con .txt2 {
+  font-size: 21px;
+  margin-bottom: 25px;
+}
+.fortunaBonus_con .butCon .but {
+  border: 2px solid #83b824;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  display: inline-block;
+  font-size: 24px;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 50px;
+  text-transform: uppercase;
+  vertical-align: top;
+
+  background: #83b824;
+  background: -moz-linear-gradient(top,  #83b824 0%, #659213 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#83b824), color-stop(100%,#659213));
+  background: -webkit-linear-gradient(top,  #83b824 0%,#659213 100%);
+  background: -o-linear-gradient(top,  #83b824 0%,#659213 100%);
+  background: -ms-linear-gradient(top,  #83b824 0%,#659213 100%);
+  background: linear-gradient(to bottom,  #83b824 0%,#659213 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83b824', endColorstr='#659213',GradientType=0 );
+}
+.fortunaBonus_con .butCon .but:hover{
+  background: #76a71f;
+  background: -moz-linear-gradient(top,  #76a71f 1%, #5a8211 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#76a71f), color-stop(100%,#5a8211));
+  background: -webkit-linear-gradient(top,  #76a71f 1%,#5a8211 100%);
+  background: -o-linear-gradient(top,  #76a71f 1%,#5a8211 100%);
+  background: -ms-linear-gradient(top,  #76a71f 1%,#5a8211 100%);
+  background: linear-gradient(to bottom,  #76a71f 1%,#5a8211 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76a71f', endColorstr='#5a8211',GradientType=0 );
+}
+.fortunaBonus_con .num {
+  background-image: url("../img/fortuna/num.png");
+  height: 225px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  width: 236px;
+}
+.fortunaBonus_con .num > span {
+  color: #ffce07;
+  display: block;
+  font-family: Roboto Condensed;
+  font-size: 100px;
+  font-weight: 900;
+  height: 100px;
+  left: 66px;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  top: 72px;
+  width: 100px;
+}
+
+#fortunaModal_2,
+#fortunaModal_3 {
+  margin-top: 15%;
+}
+
+.xFortun_bg4 {
+  background-color: #0b3a7c;
+  border-bottom: 1px solid #ffffff;
+  padding: 20px 0 30px;
+}
+.xFortun_listRaffle {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.xFortun_listRaffle > li {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 20px;
+  text-transform: uppercase;
+}
+.xFortun_listRaffle > li:nth-child(2n-1) {
+  background-color: #0d336f;
+}
+.xFortun_listRaffle > li .yellow {
+  color: #ffba00;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+@import "media-whell-fortune";
